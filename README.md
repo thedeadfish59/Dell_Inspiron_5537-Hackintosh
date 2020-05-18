@@ -8,27 +8,27 @@ macOS Catalina 10.15.4
 
 ## What Works
 
-Bluetooth
-Audio (Plug, Internal both)
-Microphone
-Graphics (Intel HD 4400)
-Battery
-Touchpad
-USB All Ports (Fixed power issue)
-Ethernet
-Keyboard
-Brightness
+- Bluetooth
+- Audio (Plug, Internal both)
+- Microphone
+- Graphics (Intel HD 4400)
+- Battery
+- Touchpad
+- USB All Ports (Fixed power issue)
+- Ethernet
+- Keyboard
+- Brightness
 
 
 ## Whats broken
 
-WiFi
+- WiFi
 
 
 ## Whats untested
 
-HDMI
-VGA
+- HDMI
+- VGA
 
 ## Installation
 
