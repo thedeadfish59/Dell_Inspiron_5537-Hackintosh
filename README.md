@@ -8,7 +8,7 @@ macOS Catalina 10.15.4
 
 ## What Works
 
-- Bluetooth
+
 - Audio (Plug, Internal both)
 - Microphone
 - Graphics (Intel HD 4400)
@@ -23,7 +23,7 @@ macOS Catalina 10.15.4
 ## Whats broken
 
 - WiFi
-
+- Bluetooth
 
 ## Whats untested
 
