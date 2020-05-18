@@ -18,12 +18,11 @@ macOS Catalina 10.15.4
 - Ethernet
 - Keyboard
 - Brightness
-
+- Camera
 
 ## Whats broken
 
-- WiFi
-- Bluetooth
+- WiFi and Bluetooth (Will work with proper replacement of card)
 
 ## Whats untested
 
