@@ -42,7 +42,7 @@ Press `F2` to load BIOS settings. Change the following settings:
 - Secure Boot: Disabled
 - Disable Intel Speedstep 
 
-1. Make bootable usb from Olarila from [here] (https://www.olarila.com/topic/5794-hackintosh-guide-install-macos-with-olarila-image-step-by-step-install-and-post-install-windows-or-mac/)
+1. Make bootable usb from Olarila from [here](https://www.olarila.com/topic/5794-hackintosh-guide-install-macos-with-olarila-image-step-by-step-install-and-post-install-windows-or-mac)
 
 2. Follow the instructions, use config2.plist for booting
 
@@ -58,12 +58,12 @@ sudo touch /System/Library/Extensions && sudo kextcache -u /
 
 ## Some FAQ
 
-Q. Audio codec name?
+### Q. Audio codec name?
 A. Realtek ALC3223
 
-Q. AMD Graphics works?
+### Q. AMD Graphics works?
 A. No
 
 
 
-Guide by ©thedeadfish59, cherrypicked resources from various sites 
+### Guide by ©thedeadfish59, cherrypicked resources from various sites 
