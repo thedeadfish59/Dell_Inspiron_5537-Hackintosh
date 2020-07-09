@@ -71,37 +71,6 @@
 				<string>SSDT-XOSI.aml</string>
 			</dict>
 		</array>
-		<key>Block</key>
-		<array>
-			<dict>
-				<key>All</key>
-				<false/>
-				<key>Comment</key>
-				<string>Drop CpuPm</string>
-				<key>Enabled</key>
-				<false/>
-				<key>OemTableId</key>
-				<data>Q3B1UG0AAAA=</data>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>U1NEVA==</data>
-			</dict>
-			<dict>
-				<key>All</key>
-				<false/>
-				<key>Comment</key>
-				<string>Drop Cpu0Ist</string>
-				<key>Enabled</key>
-				<false/>
-				<key>OemTableId</key>
-				<data>Q3B1MElzdAA=</data>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data>U1NEVA==</data>
-			</dict>
-		</array>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -288,22 +257,18 @@
 			<true/>
 			<key>ForceExitBootServices</key>
 			<false/>
-			<key>ProtectCsmRegion</key>
+			<key>ProtectMemoryRegions</key>
 			<false/>
 			<key>ProtectSecureBoot</key>
 			<false/>
 			<key>ProvideCustomSlide</key>
 			<true/>
-			<key>SetupVirtualMap</key>
-			<true/>
-			<key>ShrinkMemoryMap</key>
-			<false/>
-			<key>SignalAppleOS</key>
-			<false/>
-			<key>ProtectMemoryRegions</key>
-			<false/>
 			<key>RebuildAppleMemoryMap</key>
 			<true/>
+			<key>SetupVirtualMap</key>
+			<true/>
+			<key>SignalAppleOS</key>
+			<false/>
 			<key>SyncRuntimePermissions</key>
 			<false/>
 		</dict>
@@ -724,6 +689,8 @@
 			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
+			<key>DisableRtcChecksum</key>
+			<false/>
 			<key>DummyPowerManagement</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
@@ -739,8 +706,6 @@
 			<key>ThirdPartyDrives</key>
 			<true/>
 			<key>XhciPortLimit</key>
-			<false/>
-			<key>DisableRtcChecksum</key>
 			<false/>
 		</dict>
 	</dict>
@@ -798,8 +763,6 @@
 			<true/>
 			<key>AuthRestart</key>
 			<false/>
-			<key>BlacklistAppleUpdate</key>
-			<true/>
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
 			<key>ExposeSensitiveData</key>
@@ -900,7 +863,7 @@
 			<key>ARTFrequency</key>
 			<integer>0</integer>
 			<key>BoardProduct</key>
-			<string>Mac-7BA5B2D9E4FF5214</string>
+			<string>Mac-189A3D4F975D5FFC</string>
 			<key>BoardRevision</key>
 			<data></data>
 			<key>DevicePathsSupported</key>
@@ -922,37 +885,39 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro11,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C17NCVYXFH00</string>
+			<string>C17P3UY1FH00</string>
 			<key>SystemUUID</key>
-			<string>C10B301F-8B65-4706-8F75-EAA6DC68FC77</string>
+			<string>12E78293-8F0A-4FD3-831B-D086D55FF16D</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
+			<key>AdviseWindows</key>
+			<false/>
 			<key>MLB</key>
-			<string>C17436104GUFH31JA</string>
+			<string>C17502700QXFH31CB</string>
 			<key>ROM</key>
-			<data></data>
+			<data>nz8WMGEI</data>
 			<key>SpoofVendor</key>
-			<true/>
+			<false/>
 			<key>SystemProductName</key>
 			<string>MacBookPro11,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C17NCVYXFH00</string>
+			<string>C17P3UY1FH00</string>
 			<key>SystemUUID</key>
-			<string>C10B301F-8B65-4706-8F75-EAA6DC68FC77</string>
+			<string>12E78293-8F0A-4FD3-831B-D086D55FF16D</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
 			<key>BID</key>
-			<string>Mac-7BA5B2D9E42DDD94</string>
+			<string>Mac-189A3D4F975D5FFC</string>
 			<key>FirmwareFeatures</key>
-			<data>P/WP/QAAAAA=</data>
+			<data>N+EP6AAAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>P/+f/wAAAAA=</data>
+			<data>P/8f/wAAAAA=</data>
 			<key>MLB</key>
-			<string>C020043004NJG36FB</string>
+			<string>C17502700QXFH31CB</string>
 			<key>ROM</key>
-			<data>dkIYpe8i</data>
+			<data>nz8WMGEI</data>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -961,7 +926,7 @@
 		<key>UpdateSMBIOS</key>
 		<true/>
 		<key>UpdateSMBIOSMode</key>
-		<string>Create</string>
+		<string>Overwrite</string>
 	</dict>
 	<key>UEFI</key>
 	<dict>
@@ -983,9 +948,9 @@
 			<key>AudioCodec</key>
 			<integer>0</integer>
 			<key>AudioDevice</key>
-			<string>PciRoot(0x0)/Pci(0x1f,0x3)</string>
+			<string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
 			<key>AudioOut</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>AudioSupport</key>
 			<true/>
 			<key>MinimumVolume</key>
@@ -993,7 +958,7 @@
 			<key>PlayChime</key>
 			<true/>
 			<key>VolumeAmplifier</key>
-			<integer>0</integer>
+			<integer>143</integer>
 		</dict>
 		<key>ConnectDrivers</key>
 		<true/>
@@ -1002,6 +967,7 @@
 			<string>HfsPlus.efi</string>
 			<string>OpenCanopy.efi</string>
 			<string>OpenRuntime.efi</string>
+			<string>AudioDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
