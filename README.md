@@ -4,7 +4,7 @@
 
 ## Working OS
 
-macOS Catalina 10.15.4
+Till macOS Big Sur Beta 1 (any previous OS such as Catalina will boot as well)
 
 ## What Works
 
@@ -12,9 +12,10 @@ macOS Catalina 10.15.4
 - Audio (Plug, Internal both)
 - Microphone
 - Graphics (Intel HD 4400)
+- HDMI
 - Battery
 - Touchpad
-- USB All Ports (Fixed power issue)
+- USB 
 - Ethernet
 - Keyboard
 - Brightness
@@ -24,9 +25,6 @@ macOS Catalina 10.15.4
 
 - WiFi and Bluetooth (Will work with proper replacement of card)
 
-## Whats untested
-
-- HDMI
 
 ## Installation
 
@@ -38,7 +36,6 @@ Press `F2` to load BIOS settings. Change the following settings:
 - Disk: AHCI
 - UEFI Boot: Enabled
 - Secure Boot: Disabled
-- Disable Intel Speedstep 
 
 1. Make bootable usb from Olarila from [here](https://www.olarila.com/topic/5794-hackintosh-guide-install-macos-with-olarila-image-step-by-step-install-and-post-install-windows-or-mac)
 
@@ -47,10 +44,6 @@ Press `F2` to load BIOS settings. Change the following settings:
 3. Then after following intructions, instead of taking OpenCore folder from Olarila, use mine, you wont need to install OpenCore seperately 
 
 4. Reboot 
-
-5. Install these kexts to /System/Library/Extensions, you can use any kext installer app, but I recommend to do it with Kext Wizard, you can manually push to /System/Library/Extensions, then you might need to run this on terminal to rebuild kext caches, to do that run following command
-
-sudo touch /System/Library/Extensions && sudo kextcache -u /
 
 6. Reboot, everything should be as fine as it should be
 
@@ -64,4 +57,4 @@ A. No
 
 
 
-### Guide by ©thedeadfish59, cherrypicked resources from various sites 
+### Guide by Â©thedeadfish59, cherrypicked resources from various sites 
