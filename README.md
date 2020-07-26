@@ -4,7 +4,7 @@
 
 ## Working OS
 
-Till macOS Big Sur Beta 1 (any previous OS such as Catalina will boot as well)
+Till macOS Big Sur Beta 3 (any previous OS such as Catalina will boot as well)
 
 ## What Works
 
