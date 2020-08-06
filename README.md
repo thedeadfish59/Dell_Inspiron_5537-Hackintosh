@@ -28,7 +28,7 @@ Till macOS Big Sur Beta 3 (any previous OS such as Catalina will boot as well)
 
 ## Installation
 
-### PS: Its recommended to use external USB mouse during installation, with plugged in charger, 8GB+ USB drive is needed to make bootable usb, and if you are making dual boot, make sure your EFI partition is larger than 400mb+, 500~700mb is recommended 
+### PS: Its recommended to use external USB mouse during installation, with plugged in charger, 16GB+ USB drive is needed to make bootable usb, and if you are making dual boot, make sure your EFI partition is larger than 400mb+, 500~700mb is recommended 
 
 ### Set BIOS settings 
 Press `F2` to load BIOS settings. Change the following settings:
